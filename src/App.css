@@ -1,3 +1,122 @@
-.nav-layout{
+.nav-layout {
     height: 90px;
+}
+
+.nav-logo {
+    width: 46%;
+    max-width: 54%;
+}
+
+.home-header {
+    background: url("./assets/home-banner.jpg") no-repeat top center;
+    background-size: cover;
+    position: relative;
+    font-family: "Inter", Sans-serif, serif;
+    height: 650px;
+}
+
+.primary-color{
+    color: #F9AC1C;
+}
+
+
+.elementor-background-overlay {
+    background-color:  #000000;
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.header-text{
+    font-family: "Inter", Sans-serif, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+}
+.header-text-input{
+    font-weight: normal;
+    font-family: Open Sans, serif;
+    color: #000 !important;
+    font-size: 17px;
+    line-height: normal !important;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    border-radius: 35px  !important;
+    height: 50px;
+    box-shadow: none !important;
+    padding: 16px;
+    width: 90%;
+    border: 2px solid rgb(249, 172, 28) !important;
+
+}
+
+.header-text-input:focus{
+    border: 2px solid rgb(249, 172, 28) !important;
+    outline: 2px solid rgb(249, 172, 28) !important;
+
+}
+.header-text-input-icon{
+    height: 40px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 71px;
+    top: 5px;
+}
+.banner-card{
+    padding: 20px;
+    background: white;
+    width: 290px;
+    border-radius: 10px;
+    position: relative;
+}
+.banner-card .card-img-top{
+    border-radius: 5px;
+}
+.banner-card .card-text{
+    font-size: 16px;
+}
+.card-circle{
+    /*padding: 31px 17px 31px 17px;*/
+    background-color: #F9AC1C;
+    border-radius: 50px;
+    position: absolute;
+    color: white;
+    top: -21px;
+    right: -21px;
+    height: 90px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+.nav-link{
+    color: black !important;
+    transition: 0.5s;
+    padding: 15px;
+}
+.nav-link:hover{
+    color: #F9AC1C !important;
+}
+.active{
+    color: #F9AC1C !important;
+}
+.register-btn{
+    color: white !important;
+    background-color: #F9AC1C;
+    border-radius: 47px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Inter", Sans-serif, serif;
+}
+.gap-20{
+    gap: 20px;
 }

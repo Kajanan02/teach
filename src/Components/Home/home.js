@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from "./header";
 
 function Home(props) {
     return (
-        <div>Home</div>
+        <Header/>
     );
 }
 
